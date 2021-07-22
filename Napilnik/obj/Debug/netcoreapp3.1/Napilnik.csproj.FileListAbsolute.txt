@@ -1,0 +1,13 @@
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\bin\Debug\netcoreapp3.1\Napilnik.exe
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\bin\Debug\netcoreapp3.1\Napilnik.deps.json
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\bin\Debug\netcoreapp3.1\Napilnik.runtimeconfig.json
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\bin\Debug\netcoreapp3.1\Napilnik.runtimeconfig.dev.json
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\bin\Debug\netcoreapp3.1\Napilnik.dll
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\bin\Debug\netcoreapp3.1\Napilnik.pdb
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\obj\Debug\netcoreapp3.1\Napilnik.csprojAssemblyReference.cache
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\obj\Debug\netcoreapp3.1\Napilnik.AssemblyInfoInputs.cache
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\obj\Debug\netcoreapp3.1\Napilnik.AssemblyInfo.cs
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\obj\Debug\netcoreapp3.1\Napilnik.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\obj\Debug\netcoreapp3.1\Napilnik.dll
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\obj\Debug\netcoreapp3.1\Napilnik.pdb
+D:\Projects\VisualStudioProjects\Napilnik\Napilnik\obj\Debug\netcoreapp3.1\Napilnik.genruntimeconfig.cache
