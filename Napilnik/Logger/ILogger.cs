@@ -1,7 +1,7 @@
 ﻿namespace Napilnik
 {
-    interface ILogger
+    public interface ILogger
     {
-        void Log(string message);
+        void TryLog(string message);
     }
 }

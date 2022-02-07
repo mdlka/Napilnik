@@ -2,7 +2,7 @@
 
 namespace Napilnik
 {
-    class FridayLoggingCondition : ILoggingCondition
+    public class FridayLoggingCondition : ILoggingCondition
     {
         public bool CanLog() => DateTime.Now.DayOfWeek == DayOfWeek.Friday;
     }

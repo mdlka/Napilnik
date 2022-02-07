@@ -2,7 +2,7 @@
 
 namespace Napilnik
 {
-    class Pathfinder
+    public class Pathfinder
     {
         private readonly ILogger _logger;
 
@@ -16,7 +16,7 @@ namespace Napilnik
 
         public void Find()
         {
-            _logger.Log("Find");
+            _logger.TryLog("Find");
         }
     }
 }

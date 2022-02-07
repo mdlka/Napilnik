@@ -1,8 +1,8 @@
 ﻿namespace Napilnik
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Pathfinder filePathfinder = new Pathfinder(new FileLogger(new DefaultLoggingCondition()));
             filePathfinder.Find();
@@ -20,7 +20,6 @@
                                                          new FileLogger(new FridayLoggingCondition()));
             Pathfinder consoleAndFridayFilePathfinder = new Pathfinder(loggerChain);
             consoleAndFridayFilePathfinder.Find();
-
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Napilnik
 {
-    abstract class Logger : ILogger
+    public abstract class Logger : ILogger
     {
         private readonly ILoggingCondition _loggingCondition;
 
@@ -14,8 +14,12 @@ namespace Napilnik
             _loggingCondition = loggingCondition;
         }
 
-        public abstract void Log(string message);
+        public void TryLog(string message)
+        {
+            if (_loggingCondition.CanLog())
+                Log(message);
+        }
 
-        protected bool CanLog() => _loggingCondition.CanLog();
+        protected abstract void Log(string message);
     }
 }

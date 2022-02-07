@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Napilnik
 {
-    class LoggerChain : ILogger
+    public class LoggerChain : ILogger
     {
         private IEnumerable<ILogger> _loggers;
 
@@ -12,10 +12,10 @@ namespace Napilnik
             _loggers = loggers;
         }
 
-        public void Log(string message)
+        public void TryLog(string message)
         {
             foreach (var logger in _loggers)
-                logger.Log(message);
+                logger.TryLog(message);
         }
 
         public static LoggerChain Create(params ILogger[] loggers)

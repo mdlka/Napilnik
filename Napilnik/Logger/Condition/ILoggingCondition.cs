@@ -1,6 +1,6 @@
 ﻿namespace Napilnik
 {
-    interface ILoggingCondition
+    public interface ILoggingCondition
     {
         bool CanLog();
     }
